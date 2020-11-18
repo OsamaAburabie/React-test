@@ -8,7 +8,7 @@ function App() {
 
 			<Person guy={{ name: 'anas', job: '' }} />
 
-			<Person guy={{ name: 'ahmad', job: 'actor' }} />
+			<Person guy={{ name: 'ahmad', job: 'doctor' }} />
 		</div>
 	);
 }
