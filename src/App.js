@@ -4,7 +4,7 @@ import Person from './components/Person';
 function App() {
 	return (
 		<div className='App'>
-			<Person guy={{ name: 'osama', job: 'doctor' }} />
+			<Person guy={{ name: 'osama', job: 'student' }} />
 
 			<Person guy={{ name: 'anas', job: '' }} />
 
