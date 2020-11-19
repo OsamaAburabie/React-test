@@ -1,16 +1,12 @@
-import './App.scss';
+// import './App.css';
 import React from 'react';
 import Person from './components/Person';
+import './style.css';
+import Students from './Students';
+
 function App() {
-	return (
-		<div className='App'>
-			<Person guy={{ name: 'osama', job: 'student' }} />
-
-			<Person guy={{ name: 'anas', job: '' }} />
-
-			<Person guy={{ name: 'ahmad', job: 'doctor' }} />
-		</div>
-	);
+	const Names = Students.map((item) => <Person name={item.name} />);
+	return <div className='container'>{Names}</div>;
 }
 
 export default App;
